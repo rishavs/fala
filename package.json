@@ -1,0 +1,23 @@
+{
+  "name": "fly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^1.5.0",
+    "fastify-graceful-shutdown": "^2.0.0",
+    "fastify-postgres": "^1.0.0",
+    "knex": "^0.14.6",
+    "pg": "^7.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
